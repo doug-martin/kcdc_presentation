@@ -1,0 +1,17 @@
+{
+    "name": "kcdc_project2",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Example project 2",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "license": "BSD",
+    "dependencies": {
+        "grunt-link": "~0.1.1",
+        "grunt": "~0.4.1"
+    },
+    "scripts": {
+        "postinstall": "grunt link"
+    }
+}

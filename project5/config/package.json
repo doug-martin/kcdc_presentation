@@ -1,0 +1,13 @@
+{
+    "name": "kcdc-project5-config",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "linkDependencies": [],
+    "license": "BSD",
+    "dependencies": {
+        "gofigure": "~0.1.1"
+    }
+}

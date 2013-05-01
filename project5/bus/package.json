@@ -1,0 +1,15 @@
+{
+  "name": "kcdc-project5-bus",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "",
+  "linkDependencies": [
+    "kcdc-project5-config"
+  ],
+  "license": "BSD",
+  "dependencies": {
+    "hare": "0.0.2"
+  }
+}

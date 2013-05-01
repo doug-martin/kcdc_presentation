@@ -1,0 +1,17 @@
+{
+    "name": "kcdc-project4-api",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "linkDependencies": [
+        "kcdc-project4-config",
+        "kcdc-project4-model",
+        "kcdc-project4-logger"
+    ],
+    "license": "BSD",
+    "dependencies": {
+        "werker": "0.0.2"
+    }
+}

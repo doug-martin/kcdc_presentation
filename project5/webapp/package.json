@@ -1,0 +1,17 @@
+{
+    "name": "kcdc-project5-webapp",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "linkDependencies": [
+        "kcdc-project5-config",
+        "kcdc-project5-api",
+        "kcdc-project5-logger"
+    ],
+    "license": "BSD",
+    "dependencies": {
+        "express": "~3.2.1"
+    }
+}

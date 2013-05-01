@@ -1,0 +1,12 @@
+{
+    "name": "kcdc-project5-logger",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "linkDependencies": [
+        "kcdc-project5-config"
+    ],
+    "license": "BSD"
+}

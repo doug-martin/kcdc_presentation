@@ -1,0 +1,14 @@
+{
+    "name": "kcdc-project3-api",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "linkDependencies": [
+        "kcdc-project3-config",
+        "kcdc-project3-model",
+        "kcdc-project3-logger"
+    ],
+    "license": "BSD"
+}

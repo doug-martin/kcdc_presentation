@@ -1,0 +1,12 @@
+{
+    "name": "kcdc-project2-model",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "linkDependencies": [
+        "kcdc-project2-config"
+    ],
+    "license": "BSD"
+}

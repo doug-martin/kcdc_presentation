@@ -1,0 +1,18 @@
+{
+    "name": "kcdc-project4",
+    "private": true,
+    "version": "0.0.0",
+    "description": "Example project 4",
+    "main": "index.js",
+    "repository": "",
+    "author": "",
+    "license": "BSD",
+    "dependencies": {
+        "grunt-link": "~0.1.1",
+        "grunt": "~0.4.1",
+        "comb": "~0.2.1"
+    },
+    "scripts": {
+        "postinstall": "grunt link"
+    }
+}

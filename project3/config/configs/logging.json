@@ -1,0 +1,113 @@
+{
+    "*": {
+        "logging": {
+            "patio": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+
+            },
+            "hare": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+
+            },
+            "werker": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+
+            },
+            "kcdc": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+            }
+        }
+    },
+
+    "development": {
+        "logging": {
+            "patio": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    },
+                    {
+                        "type": "ConsoleAppender",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+
+            },
+            "hare": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    },
+                    {
+                        "type": "ConsoleAppender",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+
+            },
+            "werker": {
+                "level": "ERROR",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    },
+                    {
+                        "type": "ConsoleAppender",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+
+            },
+            "kcdc": {
+                "level": "INFO",
+                "appenders": [
+                    {
+                        "type": "RollingFileAppender",
+                        "file": "/var/log/kcdc/kcdc.log",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    },
+                    {
+                        "type": "ConsoleAppender",
+                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
+                    }
+                ]
+            }
+        }
+    }
+}

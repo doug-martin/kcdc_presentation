@@ -1,0 +1,8 @@
+{
+    "*": {
+        "services": {
+            "numberToFork": 2,
+            "fibQueueName": "kcdc.math.fibonacci"
+        }
+    }
+}
