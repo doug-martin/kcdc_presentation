@@ -1,5 +1,0 @@
-{
-    "*": {
-        "PG_DB": "pg://kcdc:kcdc@127.0.0.1:5432/kcdc?maxConnections=3"
-    }
-}

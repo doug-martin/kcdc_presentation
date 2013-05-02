@@ -1,1 +1,0 @@
-exports.route = require("./routes");

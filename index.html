@@ -20,6 +20,16 @@
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
 
+    <style type="text/css">
+        .presentation-buttons{
+            display: block;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            z-index: 20;
+        }
+    </style>
+
     <!-- If the query includes 'print-pdf', use the PDF print sheet -->
     <script>
         document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
@@ -31,8 +41,6 @@
 </head>
 
 <body>
-
-<a href="https://github.com/doug-martin/kcdc_presentation"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 <div class="reveal">
 
@@ -311,6 +319,23 @@ grunt link</code></pre>
     });
 
 </script>
+<a href="https://github.com/doug-martin/kcdc_presentation"><img style="position: absolute; top: 0; right: 0; border: 0;"
+                                                                src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
+                                                                alt="Fork me on GitHub"></a>
+
+<div class="presentation-buttons">
+    <a href="https://twitter.com/share" class="twitter-share-button"
+       data-url="http://doug-martin.github.io/kcdc_presentation" data-via="jrpercussion">Tweet</a>
+    <script>!function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+        if (!d.getElementById(id)) {
+            js = d.createElement(s);
+            js.id = id;
+            js.src = p + '://platform.twitter.com/widgets.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }
+    }(document, 'script', 'twitter-wjs');</script>
+</div>
 
 </body>
 </html>
