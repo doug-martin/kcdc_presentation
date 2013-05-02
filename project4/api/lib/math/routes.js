@@ -14,10 +14,12 @@ module.exports = function (app) {
     //routes describing actions available under the math resource
     app.get("/math", function (req, res) {
         LOGGER.debug("getting math actions");
-        res.send({actions: [
-            "/fibonacci/werker/:num",
-            "/fibonacci/cluster/:num"
-        ]})
+        res.send({
+            actions: [
+                "/fibonacci/werker/:num",
+                "/fibonacci/cluster/:num"
+            ]
+        });
     });
 
     //a route that uses a worker process to calculate fiboncacci of a number
