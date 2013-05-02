@@ -1,39 +1,6 @@
 {
     "*": {
         "logging": {
-            "patio": {
-                "level": "ERROR",
-                "appenders": [
-                    {
-                        "type": "RollingFileAppender",
-                        "file": "/var/log/kcdc/kcdc.log",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    }
-                ]
-
-            },
-            "hare": {
-                "level": "ERROR",
-                "appenders": [
-                    {
-                        "type": "RollingFileAppender",
-                        "file": "/var/log/kcdc/kcdc.log",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    }
-                ]
-
-            },
-            "werker": {
-                "level": "ERROR",
-                "appenders": [
-                    {
-                        "type": "RollingFileAppender",
-                        "file": "/var/log/kcdc/kcdc.log",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    }
-                ]
-
-            },
             "kcdc": {
                 "level": "ERROR",
                 "appenders": [
@@ -41,14 +8,6 @@
                         "type": "RollingFileAppender",
                         "file": "/var/log/kcdc/kcdc.log",
                         "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    },
-                    {
-                        "type": "AmqpAppender",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}",
-                        "sendJson": true,
-                        "durable": true,
-                        "level": "ALL",
-                        "queueName": "kcdc-logger"
                     }
                 ]
             }
@@ -57,51 +16,6 @@
 
     "development": {
         "logging": {
-            "patio": {
-                "level": "ERROR",
-                "appenders": [
-                    {
-                        "type": "RollingFileAppender",
-                        "file": "/var/log/kcdc/kcdc.log",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    },
-                    {
-                        "type": "ConsoleAppender",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    }
-                ]
-
-            },
-            "hare": {
-                "level": "ERROR",
-                "appenders": [
-                    {
-                        "type": "RollingFileAppender",
-                        "file": "/var/log/kcdc/kcdc.log",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    },
-                    {
-                        "type": "ConsoleAppender",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    }
-                ]
-
-            },
-            "werker": {
-                "level": "ERROR",
-                "appenders": [
-                    {
-                        "type": "RollingFileAppender",
-                        "file": "/var/log/kcdc/kcdc.log",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    },
-                    {
-                        "type": "ConsoleAppender",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    }
-                ]
-
-            },
             "kcdc": {
                 "level": "ERROR",
                 "appenders": [
@@ -113,14 +27,6 @@
                     {
                         "type": "ConsoleAppender",
                         "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}"
-                    },
-                    {
-                        "type": "AmqpAppender",
-                        "pattern": "{hostname}::{gid}::{pid}::[{[yyyy-MM-ddTHH:mm:ss:SSS (z)]timeStamp}]::{name}::{levelName} - {message}",
-                        "sendJson": true,
-                        "durable": true,
-                        "level": "ALL",
-                        "queueName": "kcdc-logger"
                     }
                 ]
             }
